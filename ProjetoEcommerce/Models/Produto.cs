@@ -2,5 +2,14 @@
 {
     public class Produto
     {
+        //CRIANDO O ENCAPSULAMENTO DO OBJETO COM GET E SET
+        public int CodProd { get; set; } //Acessores
+        // Ao usar ?, você está explicitamente dizendo que a propriedade pode intencionalmente ter um valor nulo.
+        public string? NomeProd { get; set; }
+        public string? DescricaoProd { get; set; }
+        public int? QuantidadeProd { get; set; }
+        public float? PrecoProd { get; set; }
+        public List<Produto>? ListaProduto { get; set; }
+
     }
 }
